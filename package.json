@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/AlonsoER/Joyeria-Virtual/issues"
   },
-  "homepage": "https://github.com/AlonsoER/Joyeria-Virtual#readme"
+  "homepage": "https://github.com/AlonsoER/Joyeria-Virtual#readme",
+  "devDependencies": {
+    "gulp-avif": "^1.1.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "plumber": "^0.4.8",
+    "sass": "^1.52.1"
+  }
 }
