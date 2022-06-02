@@ -1,0 +1,23 @@
+{
+  "name": "joyeria-virtual",
+  "version": "1.0.0",
+  "description": "Proyecto de una Tienda Virtual de una Joyería",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlonsoER/Joyeria-Virtual.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "AlonsoER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlonsoER/Joyeria-Virtual/issues"
+  },
+  "homepage": "https://github.com/AlonsoER/Joyeria-Virtual#readme"
+}
