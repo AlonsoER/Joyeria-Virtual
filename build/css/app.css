@@ -359,10 +359,11 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   line-height: 1.8;
+  background-color: #ffffff;
 }
 
 p {
-  color: #000;
+  color: #000000;
   font-size: 2rem;
 }
 
@@ -401,4 +402,42 @@ h3 {
 
 h4 {
   font-size: 2.6rem;
+}
+
+.header {
+  height: 60rem;
+}
+
+.barra {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+@media (min-width: 768px) {
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  .nav a {
+    display: inline;
+    margin-left: 1rem;
+  }
+}
+
+.logo {
+  color: #E6CD75;
+}
+
+.img__header {
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 15rem;
 }

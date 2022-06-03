@@ -1,0 +1,33 @@
+.header{
+    height: 60rem;
+}
+.barra{
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+
+    @include tablet{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.nav a{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+
+    @include tablet{
+        display: inline;
+        margin-left: 1rem;
+
+        
+    }
+}
+.logo{
+    color: $dorado;
+}
+.img__header{
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 15rem
+}
