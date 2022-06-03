@@ -1,0 +1,13 @@
+.main{
+    margin-top: 0rem;
+    @include tablet{
+        margin-top: 5rem;
+    }
+}
+.main__titulo{
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $morado;
+    margin-bottom: 2.5rem;
+}

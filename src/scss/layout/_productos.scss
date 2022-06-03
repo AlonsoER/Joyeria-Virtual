@@ -1,0 +1,23 @@
+@include tablet{
+    .contenido__main{
+        @include grid(3, 2rem);
+    }
+}
+.productos{
+    background-color: lighten($gris, 5);
+    border: 1px solid darken($gris, 10);
+    margin-bottom: 2rem;
+}
+.productos__contenido{
+    padding: 1rem;
+}
+.producto__descripcion{
+    text-align: start;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.producto__precio{
+    margin: 1.5rem 0 1.5rem 0;
+    color: $morado;
+    font-size: 2.5rem;
+    font-weight: bold;
+}

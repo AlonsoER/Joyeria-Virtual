@@ -1,0 +1,23 @@
+.footer{
+    margin-top: 10rem;
+    background-color: $morado;
+    @include tablet{
+        margin-top: 5rem;
+    }
+
+    .logo__footer h1{
+        color: $blanco;
+    }
+    .nav a{
+        color: $blanco;
+    }
+    .nav a:hover{
+        color: $dorado;
+    }
+}
+.derechos__autor p{
+    color: $blanco;
+    text-align: center;
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+}

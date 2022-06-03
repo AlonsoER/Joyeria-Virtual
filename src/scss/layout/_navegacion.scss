@@ -1,5 +1,18 @@
 .header{
-    height: 60rem;
+    height: 55rem;
+    @include tablet{
+        height: 70rem;
+    }
+    .img__header{
+        width: 20rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        @include tablet{
+            margin-top: 15rem;
+            width: 30rem;
+        }
+        
+    }
 }
 .barra{
     text-align: center;
@@ -11,10 +24,18 @@
         align-items: center;
     }
 }
+.nav{
+    margin-top: 2rem;
+    @include tablet{
+        margin-top: 0;
+    }
+}
 .nav a{
     display: block;
     text-align: center;
     font-size: 2rem;
+    color: $morado;
+    font-size: 2.5rem;
 
     @include tablet{
         display: inline;
@@ -23,11 +44,10 @@
         
     }
 }
-.logo{
+.nav a:hover{
     color: $dorado;
 }
-.img__header{
-    width: 30rem;
-    margin: 0 auto;
-    margin-top: 15rem
+.logo__header h1{
+    font-weight: 600;
+    color: $morado;
 }
