@@ -19,7 +19,7 @@ function css( done ){
 }
 
 function javascript( done ){
-    src('src/js/**/.js')
+    src('src/js/**/*.js')
     .pipe( dest('build/js'))
     done();
 }
@@ -31,4 +31,5 @@ function dev( done ){
 }
 
 exports.css = css;
+exports.javascript = javascript;
 exports.dev = parallel(css, javascript, dev);
