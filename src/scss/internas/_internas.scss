@@ -1,0 +1,6 @@
+.header__internas{
+    height: 35rem;
+    @include tablet{
+        height: 15rem;
+    }
+}

@@ -1,0 +1,30 @@
+.main__nosotros{
+    text-align: center;
+    @include tablet{
+        @include grid(2, 2rem);
+    }
+}
+.main__nosotros--contenedor{
+    text-align: center;
+    @include tablet{
+        @include grid(2, 2rem);
+        text-align: center;
+        grid-auto-flow: row;
+    }
+}
+.logo__servicios{
+    width: 3rem;
+    height: 3rem;
+}
+.nuestros__servicios{
+    margin-top: 2rem;
+}
+.main__nosotros--contenido h3{
+    color: $morado;
+}
+.main__nosotros--servicios{
+    margin-top: 3rem;
+    @include tablet{
+        margin-top: 0;
+    }
+}
