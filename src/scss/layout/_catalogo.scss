@@ -1,0 +1,5 @@
+.contenedor__catalogo{
+    @include tablet{
+        @include grid(3, 2rem);
+    }
+}

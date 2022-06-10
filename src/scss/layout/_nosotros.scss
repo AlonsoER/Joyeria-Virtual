@@ -18,6 +18,9 @@
 }
 .nuestros__servicios{
     margin-top: 2rem;
+    @include tablet{
+        margin-top: 0;
+    }
 }
 .main__nosotros--contenido h3{
     color: $morado;
