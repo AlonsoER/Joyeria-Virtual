@@ -630,13 +630,8 @@ h4 {
 }
 
 .footer {
-  margin-top: 10rem;
+  margin-top: 5rem;
   background-color: #9b5de5;
-}
-@media (min-width: 768px) {
-  .footer {
-    margin-top: 5rem;
-  }
 }
 .footer .logo__footer h1 {
   color: #ffffff;
