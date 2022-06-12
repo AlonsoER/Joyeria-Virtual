@@ -1,0 +1,16 @@
+.contenido__blog{
+    margin: 0 auto 2rem auto;
+    background-color: $gris;
+    border: 1px solid darken($gris ,10);
+    @include tablet{
+        @include grid(2, 2rem); 
+        border-bottom-right-radius: 2rem;
+        max-width: 90%;
+    }
+}
+.padding{
+    padding: 1rem;
+    @include tablet{
+        padding: 0;
+    }
+}
