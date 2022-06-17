@@ -24,7 +24,8 @@ function css(done) {
 }
 
 function javascript(done) {
-    src("src/js/**/*.js").pipe(dest("build/js"));
+    src("src/js/**/*.js")
+    .pipe(dest("build/js"));
     done();
 }
 
