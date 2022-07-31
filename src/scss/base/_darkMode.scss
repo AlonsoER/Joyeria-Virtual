@@ -23,8 +23,13 @@
         }
     }
 
-    .titulo_caracteristicas{
+    .caracteristicas{
         h4{
+            color: $blanco;
+        }
+        .cant{
+            background-color: darken($grisOscuro, 10);
+            border-color: $blanco;
             color: $blanco;
         }
     }
