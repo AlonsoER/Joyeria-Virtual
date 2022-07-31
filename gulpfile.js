@@ -37,7 +37,7 @@ function dev(done) {
 
 function imagenes(done) {
     const opciones = {
-    optimozationLevel: 3,
+    optimozationLevel: 3
 };
 
     src("src/img/**/*.{png,jpg}")

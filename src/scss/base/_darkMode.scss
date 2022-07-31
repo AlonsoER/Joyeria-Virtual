@@ -13,4 +13,19 @@
     .producto__descripcion{
         color: $blanco;
     }
+
+    .titulo_descripcion{
+        h4{
+            color: $blanco;
+        }
+        p{
+            color: $gris;
+        }
+    }
+
+    .titulo_caracteristicas{
+        h4{
+            color: $blanco;
+        }
+    }
 }
