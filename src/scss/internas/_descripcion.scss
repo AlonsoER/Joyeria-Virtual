@@ -2,6 +2,12 @@ h4{
     font-size: 1.8rem
 }
 
+.titulo_caracteristicas{
+    h4{
+        margin-bottom: 1rem;
+    }
+}
+
 .contenedor_descripcion{
     padding: 1.5rem;
 
@@ -19,51 +25,71 @@ h4{
 }
 
 .color_rojo{
-    width: 2.6rem;
-    height: 2.6rem;
+    width: 2rem;
+    height: 2rem;
     background: red;
     border-radius: 50%;
 
-    &:hover{
+    @include tablet{
+        width: 2.6rem;
+        height: 2.6rem;
+
+        &:hover{
         width: 2.8rem;
         height: 2.8rem;
         transition: .5s;
+        }
     }
 }
 .color_rosa{
-    width: 2.6rem;
-    height: 2.6rem;
+    width: 2rem;
+    height: 2rem;
     background: pink;
     border-radius: 50%;
 
-    &:hover{
+    @include tablet{
+        width: 2.6rem;
+        height: 2.6rem;
+
+        &:hover{
         width: 2.8rem;
         height: 2.8rem;
         transition: .5s;
+        }
     }
 }
 .color_negro{
-    width: 2.6rem;
-    height: 2.6rem;
+    width: 2rem;
+    height: 2rem;
     background: $negro;
     border-radius: 50%;
 
-    &:hover{
+    @include tablet{
+        width: 2.6rem;
+        height: 2.6rem;
+
+        &:hover{
         width: 2.8rem;
         height: 2.8rem;
         transition: .5s;
+        }
     }
 }
 .color_azul{
-    width: 2.6rem;
-    height: 2.6rem;
+    width: 2rem;
+    height: 2rem;
     background: blue;
     border-radius: 50%;
 
-    &:hover{
+    @include tablet{
+        width: 2.6rem;
+        height: 2.6rem;
+
+        &:hover{
         width: 2.8rem;
         height: 2.8rem;
         transition: .5s;
+        }
     }
 }
 

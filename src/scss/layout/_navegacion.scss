@@ -65,3 +65,15 @@
 #color{
     color: $dorado;
 }
+
+.carrito{
+    border-top: 2px solid $negro;
+    max-width: 30%;
+    margin: 0 auto;
+
+    @include tablet{
+        border: none;
+        border-left: 2px solid $negro;
+        padding-left: 1rem;
+    }
+}
