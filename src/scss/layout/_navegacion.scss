@@ -25,7 +25,7 @@
     }
 }
 .nav{
-    margin-top: 2rem;
+    margin-top: -.5rem;
     @include tablet{
         margin-top: 0;
     }
@@ -70,6 +70,7 @@
     border-top: 2px solid $negro;
     max-width: 30%;
     margin: 0 auto;
+    padding-bottom: 2rem;
 
     @include tablet{
         border: none;
